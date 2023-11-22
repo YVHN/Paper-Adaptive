@@ -1,0 +1,35 @@
+/* heading-sizes */
+.h_b{
+    font-size: 60px;
+}
+.h_m{
+    font-size: 40px;
+}
+.h_s{
+    font-size: 30px;
+}
+
+@media (max-width : 810px){
+    .h_m{
+        font-size: 30px;
+    }
+}
+@media (max-width : 690px) {
+    .h_b{
+        font-size: 50px;
+    }
+}
+@media (max-width : 510px) {
+    .h_b{
+        font-size: 38px;
+    }
+    .h_s{
+        font-size: 24px;
+    }
+}
+@media (max-width : 410px) {
+    .h_b{
+        font-size: 30px;
+    }
+
+}

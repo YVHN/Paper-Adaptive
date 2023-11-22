@@ -1,0 +1,51 @@
+/* font-size */
+.text-size_s{
+    font-size: 14px;
+}
+.text-size_m{
+    font-size: 18px;
+}
+.text-size_b{
+    font-size: 20px;
+}
+
+/* font weights */
+.weight_thin{
+    font-weight: 400;
+}
+.weight_medium{
+    font-weight: 500;
+}
+
+/* font-styles */
+.font_roboto{
+    font-style: 'Roboto';
+}
+
+/* colors */
+.font_grey{
+    color: #85859B;
+}
+.font_light-gray{
+    color: #B5B5BD;
+}
+.font_dark-grey{
+    color: #666;
+}
+.font_grey-blue{
+    color: #4C5866;
+}
+.font_purple{
+    color: #7875FE;
+}
+
+@media (max-width : 690px) {
+    
+}
+@media (max-width : 510px) {
+    .text-size_m{
+        font-size: 16px;
+    }
+}
+@media (max-width : 410px) {
+}
