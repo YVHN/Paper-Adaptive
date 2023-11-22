@@ -9,9 +9,6 @@
     font-size: 20px;
 }
 
-.text-burger{
-}
-
 /* font weights */
 .weight_thin{
     font-weight: 400;
@@ -50,7 +47,7 @@
         font-size: 16px;
     }
 }
-@media (max-width : 410px) {
+@media (max-width : 440px) {
     .text-burger{
         font-size: 18px;
     }
