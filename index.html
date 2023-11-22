@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/text.css">
     <link rel="stylesheet" href="css/headings.css">
+    <link rel="stylesheet" href="css/animations.css">
     <title>Simple | Homepage</title>
 </head>
 
@@ -30,12 +31,15 @@
                         <img src="img/svg/logo.svg" alt="" class="logo__img">
                     </a>
                 </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
                 <nav class="navigation text-size_b">
                     <nav class="navigation__list">
-                        <a href="#Goods" class="navigation__link">Продукция</a>
-                        <a href="#Materials" class="navigation__link">Материалы</a>
-                        <a href="#About" class="navigation__link">О нас</a>
-                        <a href="#Contacts" class="navigation__link">Контакты</a>
+                        <a href="#Goods" class="navigation__link text-burger ">Продукция</a>
+                        <a href="#Materials" class="navigation__link text-burger ">Материалы</a>
+                        <a href="#About" class="navigation__link text-burger ">О нас</a>
+                        <a href="#Contacts" class="navigation__link text-burger ">Контакты</a>
                     </nav>
                     <div class="navigation__buttons header-down header-buttons">
                         <button><img src="img/svg/log-in.svg" alt="вход" class="header__svg"></button>
@@ -51,7 +55,7 @@
                 <p class="banner__heading h_b font_grey-blue">Простые вещи. Из бумаги</p>
                 <p class="banner__text text-size_m font_grey">Бума́га (предположительно от итал. bombagia,
                     первоисточником же считается иранский) — волокнистый материал с минеральными добавками.</p>
-                <nav class="banner__button text-size_b font_purple"><a href="#Katalog">Каталог</a></nav>
+                <a href="#Katalog" class="banner__button text-size_b font_purple">Каталог</a>
             </div>
         </div>
     </div>
@@ -105,8 +109,7 @@
                     <p class="product-type__quantity text-size_s font_light-gray">Тираж: от 50 штук</p>
                     <p class="product-type__description text-size_m font_grey">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
                     <nav class="product-type__more-link text-size_b font_purple">
-                        <a href="#More" class="">Подробнее</a>
-                        <nav class="more-link__arrow">➜</nav>
+                        <a href="#More" class="">Подробнее <span class="more-link__arrow">➜</span></a>
                     </nav>
                 </div>
                 <div class="product-type">
@@ -115,8 +118,7 @@
                     <p class="product-type__quantity text-size_s font_light-gray">Тираж: от 200 штук</p>
                     <p class="product-type__description text-size_m font_grey">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
                     <nav class="product-type__more-link text-size_b font_purple">
-                        <a href="#More" class="">Подробнее</a>
-                        <nav class="more-link__arrow">➜</nav>
+                        <a href="#More" class="">Подробнее <span class="more-link__arrow">➜</span></a>
                     </nav>
                 </div>
                 <div class="product-type">
@@ -125,8 +127,7 @@
                     <p class="product-type__quantity text-size_s font_light-gray">Тираж: от 30 штук</p>
                     <p class="product-type__description text-size_m font_grey">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
                     <nav class="product-type__more-link text-size_b font_purple">
-                        <a href="#More" class="">Подробнее</a>
-                        <nav class="more-link__arrow">➜</nav>
+                        <a href="#More" class="">Подробнее <span class="more-link__arrow">➜</span></a>
                     </nav>
                 </div>
                 <div class="product-type">
@@ -135,8 +136,7 @@
                     <p class="product-type__quantity text-size_s font_light-gray">Тираж: от 100 штук</p>
                     <p class="product-type__description text-size_m font_grey">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
                     <nav class="product-type__more-link text-size_b font_purple">
-                        <a href="#More" class="">Подробнее</a>
-                        <nav class="more-link__arrow">➜</nav>
+                        <a href="#More" class="">Подробнее <span class="more-link__arrow">➜</span></a>
                     </nav>
                 </div>
             </div>
@@ -194,6 +194,8 @@
             <img src="img/svg/Simple2021.svg" alt="">
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

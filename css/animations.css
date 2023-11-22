@@ -1,0 +1,27 @@
+.banner__button:hover{
+    color: white;
+    background-color: #7875FE;
+    border: 1px solid #4b48fc;
+    transition: all 0.2s ease 0s;
+}
+.banner__button:active{
+    background-color: #4946B4;
+}
+
+.navigation__link:hover{
+    color: #7875FE;
+    transition: all 0.2s ease 0s;
+}
+.navigation__link:active{
+    background-color: #DAD9FB;
+    color: #514ef5;
+}
+
+.product-type__more-link a:hover{
+    color: #7875FE;
+    transition: all 0.2s ease 0s;
+}
+.product-type__more-link a:active{
+    background-color: #DAD9FB;
+    color: #514ef5;
+}
