@@ -3,12 +3,12 @@
 <ul>
         <li>Методология БЭМ</li>
         <li>CSS3, HTML, jQuery</li>
-        <li>Адаптивность для телефонов/ планшетов/ компьютеров</li>
+        <li>Адаптивность для телефонов/планшетов/лептопов/ ольших экранов</li>
 </ul>
 <h1><a href="https://bright-muffin-cc1c6e.netlify.app/">One-page site</a> to promote the product</h1>
 <h3>Used :<h3>
 <ul>
         <li>BEM methodology</li>
         <li>CSS3, HTML, jQuery</li>
-        <li>Adaptability for phones/tablets/computers</li>
+        <li>Adaptability for phones/tablets/laptops/large display</li>
 </ul>
